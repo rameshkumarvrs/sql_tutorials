@@ -37,3 +37,8 @@ select emp_name, emp_salary from employees;
 select emp_name as adimai, emp_salary from employees;
 
 select emp_salary, emp_name from employees;
+
+
+select * from employees where emp_id = 2;
+
+select * from employees where emp_id!= 2;
