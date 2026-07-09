@@ -19,3 +19,10 @@ add phone varchar(10) # add new column in the table
 
 insert into employees
 values(1,"ramesh",45000.75,"2020-08-31","8015329413");
+
+#insert multiple number of rows at one short
+
+insert into employees
+values
+(2,"Haran",55000.75,"2022-08-25","8015329431"),
+(3,"Riya",85000.75,"2024-08-31","7402355944");
