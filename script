@@ -35,3 +35,5 @@ values(4, "krishmitha", 35000.35);
 select emp_name, emp_salary from employees;
 
 select emp_name as adimai, emp_salary from employees;
+
+select emp_salary, emp_name from employees;
