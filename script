@@ -16,3 +16,6 @@ join_date date);
 # alter table
 alter table employees 
 add phone varchar(10) # add new column in the table 
+
+insert into employees
+values(1,"ramesh",45000.75,"2020-08-31","8015329413");
