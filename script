@@ -1,2 +1,6 @@
 # check all available databases
-show database;
+show databases;
+
+# create database
+
+create database haran_stores;
