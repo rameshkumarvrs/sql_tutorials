@@ -26,3 +26,6 @@ insert into employees
 values
 (2,"Haran",55000.75,"2022-08-25","8015329431"),
 (3,"Riya",85000.75,"2024-08-31","7402355944");
+
+insert into employees(emp_id, emp_name, emp_salary)
+values(4, "krishmitha", 35000.35);
