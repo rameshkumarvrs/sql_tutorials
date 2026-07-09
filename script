@@ -29,3 +29,9 @@ values
 
 insert into employees(emp_id, emp_name, emp_salary)
 values(4, "krishmitha", 35000.35);
+
+# select particular column and alias name for the field in sql
+
+select emp_name, emp_salary from employees;
+
+select emp_name as adimai, emp_salary from employees;
