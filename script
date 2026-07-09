@@ -49,3 +49,5 @@ select * from employees where emp_salary > 50000
 select * from employees  where join_date is null;
 
 select * from employees where join_date is not null;
+
+select * from employees where join_date < "2022-07-31";
