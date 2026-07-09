@@ -45,3 +45,7 @@ select * from employees where emp_id!= 2;
 
 
 select * from employees where emp_salary > 50000
+
+select * from employees  where join_date is null;
+
+select * from employees where join_date is not null;
