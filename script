@@ -12,3 +12,7 @@ emp_id int,
 emp_name varchar(30),
 emp_salary decimal(7,2),
 join_date date);
+
+# alter table
+alter table employees 
+add phone varchar(10) # add new column in the table 
