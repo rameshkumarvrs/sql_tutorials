@@ -1,6 +1,8 @@
-# check all available databases
 show databases;
 
-# create database
-
 create database haran_stores;
+
+use haran_stores;
+
+drop database haran_stores
+
