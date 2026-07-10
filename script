@@ -66,3 +66,7 @@ WHERE emp_id = 5;
 update employees
 set emp_name = "vadivel", phone= "1234567892" 
 where emp_id = 5;
+
+#delete a record form table
+delete from employees
+where emp_id = 6;
