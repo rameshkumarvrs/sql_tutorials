@@ -61,3 +61,8 @@ set sql_safe_updates = 0;
 update employees
 set emp_name ="nangai"
 WHERE emp_id = 5;
+
+
+update employees
+set emp_name = "vadivel", phone= "1234567892" 
+where emp_id = 5;
