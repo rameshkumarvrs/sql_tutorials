@@ -51,3 +51,13 @@ select * from employees  where join_date is null;
 select * from employees where join_date is not null;
 
 select * from employees where join_date < "2022-07-31";
+
+
+
+# for update the aql update we need to run sql_safe_update = 0
+
+set sql_safe_updates = 0;
+
+update employees
+set emp_name ="nangai"
+WHERE emp_id = 5;
