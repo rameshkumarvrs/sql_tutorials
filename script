@@ -70,3 +70,6 @@ where emp_id = 5;
 #delete a record form table
 delete from employees
 where emp_id = 6;
+
+
+set autocommit = 0;
