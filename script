@@ -80,3 +80,9 @@ amount decimal(7.2)
 );
 
 select * from transactions;
+
+create table transactions(
+t_id int primary key,
+amount decimal(7,2)
+);
+
