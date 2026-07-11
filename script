@@ -86,3 +86,11 @@ t_id int primary key,
 amount decimal(7,2)
 );
 
+insert into transactions
+values(1, 1000.55);
+
+insert into transactions
+values(1, 2000.55);
+
+insert into transactions
+values(null, 2000.55);
