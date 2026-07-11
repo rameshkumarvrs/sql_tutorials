@@ -94,3 +94,6 @@ values(1, 2000.55);
 
 insert into transactions
 values(null, 2000.55);
+
+alter table transactions
+add constraint primary key(t_id)
