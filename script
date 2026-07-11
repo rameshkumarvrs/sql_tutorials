@@ -73,3 +73,10 @@ where emp_id = 6;
 
 
 set autocommit = 0;
+
+create table transactions(
+t_id int,
+amount decimal(7.2)
+);
+
+select * from transactions;
