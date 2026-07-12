@@ -111,3 +111,20 @@ values(2000.41);
 
 insert into transactions(amount)
 values(1000.71);
+
+
+create table customers(
+c_id int primary key auto_increment,
+c_name varchar(20),
+salary decimal(7,2)
+);
+
+insert into customers(c_name, salary)
+values("ramesh", 45000.75),
+      ("riya", 52000.36);
+
+
+
+
+
+ 	
