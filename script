@@ -179,6 +179,13 @@ select * from employees where age between 5 and 35 and salary > 45000;
 
 select * from employees where age in (25,35,2,4,64);
 
+alter table employees
+add join_date date;
+
+update employees
+set join_date = "2018-09-06"
+where emp_id = 8;
+
 
 
 
