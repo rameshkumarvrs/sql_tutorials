@@ -199,6 +199,18 @@ select * from employees order by salary desc limit 3;
 select * from employees order by salary desc limit 2 offset 4;
 select * from employees order by salary desc limit 4,2;
 
+create table bills(
+id int primary key auto_increment,
+name varchar(40),
+amount int
+);
+select * from bills;
+
+insert into bills(name, amount)
+values("rajali", 1500),
+      ("nagamani", 2500),
+      ("nangai", 3000);
+
 
 
 
