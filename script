@@ -136,7 +136,12 @@ select * from transactions;
 select * from customers;
 
 insert into transactions(amount, customer_id)
-values(2500.25, 2);     
+values(2500.25, 2);  
+
+select * from transactions inner join customers
+on transactions.customer_id = customers.c_id;
+
+   
 
 
 
