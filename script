@@ -159,6 +159,8 @@ select count(name) from employees where age > 34;
 #max
 select max(salary) as bethtakai from employees;
 
+select max(salary) as bethtakai from employees where age < 10;
+
 
 
 
