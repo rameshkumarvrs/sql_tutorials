@@ -169,6 +169,10 @@ select avg(age) from employees;
 
 select * from employees where age = 64 and salary < 60000 ;
 
+#not condition
+
+select * from employees where not age = 35;
+
 
 
 
