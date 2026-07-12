@@ -188,6 +188,8 @@ where emp_id = 8;
 
 select * from employees where name like "r%";
 
+select * from employees where join_date like "2018%";
+
 
 
 
