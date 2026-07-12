@@ -211,6 +211,12 @@ values("rajali", 1500),
       ("nagamani", 2500),
       ("nangai", 3000);
 
+       create table expenses(
+       id int primary key auto_increment,
+       name varchar(30),
+       amount int
+      );
+
 
 
 
