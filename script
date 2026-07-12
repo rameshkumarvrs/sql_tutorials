@@ -121,7 +121,22 @@ salary decimal(7,2)
 
 insert into customers(c_name, salary)
 values("ramesh", 45000.75),
-      ("riya", 52000.36);
+      ("riya", 52000.36)
+
+
+ create table transactions(
+t_id int primary key auto_increment,
+amount decimal(8,2),
+customer_id int,
+foreign key(customer_id) references customers(c_id)
+);
+
+select * from transactions;
+
+select * from customers;
+
+insert into transactions(amount, customer_id)
+values(2500.25, 2);     
 
 
 
