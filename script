@@ -173,6 +173,10 @@ select * from employees where age = 64 and salary < 60000 ;
 
 select * from employees where not age = 35;
 
+select * from employees where age between 5 and 35;
+
+select * from employees where age between 5 and 35 and salary > 45000;
+
 
 
 
