@@ -190,6 +190,8 @@ select * from employees where name like "r%";
 
 select * from employees where join_date like "2018%";
 
+select * from employees order by name desc;
+
 
 
 
