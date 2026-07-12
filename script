@@ -148,6 +148,15 @@ select * from customers right join transactions
 on transactions.customer_id = customers.c_id;   
 
 
+select count(*) from employees;
+
+select count(name) from employees;
+
+select count(name) as namam from employees;
+
+select count(name) from employees where age > 34;
+
+
 
 
 
