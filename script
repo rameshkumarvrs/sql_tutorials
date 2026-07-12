@@ -194,6 +194,11 @@ select * from employees order by name desc;
 
 select * from employees order by salary desc limit 3;
 
+#takesn the ififth and sixth high salary persion in the table
+
+select * from employees order by salary desc limit 2 offset 4;
+select * from employees order by salary desc limit 4,2;
+
 
 
 
