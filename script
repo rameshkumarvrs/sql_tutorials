@@ -161,6 +161,12 @@ select max(salary) as bethtakai from employees;
 
 select max(salary) as bethtakai from employees where age < 10;
 
+select min(age) as chotabai from employees;
+
+select sum(salary) as mothaslary from employees where age > 10;
+
+select avg(age) from employees; 
+
 
 
 
