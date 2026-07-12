@@ -141,7 +141,8 @@ values(2500.25, 2);
 select * from transactions inner join customers
 on transactions.customer_id = customers.c_id;
 
-   
+select * from customers left join transactions
+on transactions.customer_id = customers.c_id;   
 
 
 
