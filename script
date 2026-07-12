@@ -156,6 +156,9 @@ select count(name) as namam from employees;
 
 select count(name) from employees where age > 34;
 
+#max
+select max(salary) as bethtakai from employees;
+
 
 
 
