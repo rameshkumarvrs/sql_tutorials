@@ -251,6 +251,14 @@ select * from employees as a left join employees as b on
  on a.emp_id = b.manager_id
  where b.emp_id = 5;
 
+ create views
+
+  create view report_to as
+ select b.emp_id, b.name, b.salary, a.name as manager from employees as a inner join employees as b 
+ on a.emp_id = b.manager_id
+ where b.emp_id = 5;
+ 
+
 
 
 
