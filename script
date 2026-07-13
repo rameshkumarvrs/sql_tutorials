@@ -232,7 +232,10 @@ change column managet_id manager_id int;
 '5', 'vadivel', '55000', '64', '2020-08-23', '8'
 '6', 'revathi', '45000', '54', '2022-08-15', '5'
 '7', 'sowmya', '50000', '31', '2018-08-06', '6'
-      
+
+
+select * from employees as a inner join employees as b
+where a.emp_id = b.manager_id;      
 
 
 
