@@ -222,6 +222,9 @@ values("rajali", 1500),
        amount int
       );
 
+alter table employees
+change column managet_id manager_id int;      
+
 
 
 
