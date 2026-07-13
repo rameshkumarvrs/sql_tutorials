@@ -244,6 +244,10 @@ select * from employees as a left join employees as b on
  a.emp_id = b.manager_id;      
 
 
+  select a.emp_id, a.name, a.salary, b.name as manager from employees as a inner join employees as b 
+ on a.emp_id = b.manager_id;
+
+
 
 
 
