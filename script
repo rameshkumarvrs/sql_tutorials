@@ -190,6 +190,11 @@ select * from employees where name like "r%";
 
 select * from employees where join_date like "2018%";
 
+insert into expenses(name, amount)
+values("salary", 150000),
+      ("supplies", 100000),
+      ("Electricity bill", 50000);
+
 select * from employees order by name desc;
 
 select * from employees order by salary desc limit 3;
