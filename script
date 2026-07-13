@@ -235,7 +235,13 @@ change column managet_id manager_id int;
 
 
 select * from employees as a inner join employees as b
-where a.emp_id = b.manager_id;      
+where a.emp_id = b.manager_id;
+
+select * from employees as a left join employees as b on 
+ a.emp_id = b.manager_id;
+ 
+ select * from employees as a right join employees as b on 
+ a.emp_id = b.manager_id;      
 
 
 
