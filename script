@@ -262,6 +262,15 @@ select * from employees as a left join employees as b on
  indexing
  show indexes from employees;
 
+ create a index for name column in employee db
+
+  create index name_idx
+ on employees(name);
+ 
+ select * from employees;
+ 
+ show indexes from employees;
+
 
 
 
