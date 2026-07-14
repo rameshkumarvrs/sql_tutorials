@@ -287,6 +287,10 @@ group by name;
 select sum(amount), bill_date from bills
 group by bill_date;
 
+select sum(amount), bill_date from bills
+group by bill_date
+having sum(amount) > 15000;
+
 
 
 
