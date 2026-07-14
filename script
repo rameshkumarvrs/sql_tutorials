@@ -271,6 +271,13 @@ select * from employees as a left join employees as b on
  
  show indexes from employees;
 
+ select emp_id, salary,name from employees where salary > 
+(select avg(salary) from employees);
+
+select emp_id, name, salary from employees where manager_id = 
+
+(select emp_id from employees where name = "ramesh");
+
 
 
 
