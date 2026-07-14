@@ -284,6 +284,9 @@ select name from employees where manager_id in
 select count(name), name from bills
 group by name;
 
+select sum(amount), bill_date from bills
+group by bill_date;
+
 
 
 
