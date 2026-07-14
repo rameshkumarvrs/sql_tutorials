@@ -300,6 +300,16 @@ select sum(amount), name from bills
 group by name
 having name = "riya";
 
+delimiter //
+create procedure get_employee()
+begin 
+    select * from employees;
+end //
+
+delimiter ;
+
+call get_employee();
+
 
 
 
