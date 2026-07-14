@@ -291,6 +291,10 @@ select sum(amount), bill_date from bills
 group by bill_date
 having sum(amount) > 15000;
 
+select name from employees
+group by name
+having name != "riya";
+
 
 
 
