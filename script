@@ -296,6 +296,11 @@ group by name
 having name != "riya";
 
 
+select sum(amount), name from bills
+group by name
+having name = "riya";
+
+
 
 
 
